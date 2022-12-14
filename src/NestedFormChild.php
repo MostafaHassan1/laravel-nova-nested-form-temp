@@ -13,7 +13,7 @@ class NestedFormChild extends NestedFormSchema
      *
      * @var string
      */
-    protected static $filterMethod = 'removeNonUpdateFields';
+    protected static $filterMethod = 'updateFields';
 
     /**
      * Get the current heading.

@@ -48,7 +48,7 @@ class NestedFormSchema implements JsonSerializable
      *
      * @var string
      */
-    protected static $filterMethod = 'removeNonCreationFields';
+    protected static $filterMethod = 'creationFields';
 
     /**
      * Create a new NestedFormSchema instance.

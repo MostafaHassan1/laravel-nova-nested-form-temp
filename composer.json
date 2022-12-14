@@ -1,62 +1,60 @@
 {
-  "name": "handleglobal/nova-nested-form",
-  "description": "A Laravel Nova package that allows you to create/update/delete nested related fields from a parent form.",
-  "keywords": [
-    "laravel",
-    "nova",
-    "nova 4",
-    "nested",
-    "relationship",
-    "form"
-  ],
-  "homepage": "https://handleglobal.com",
-  "support": {
-    "email": "buch@procoders.tech",
-    "issues": "https://github.com/handleglobal/laravel-nova-nested-form/issues",
-    "source": "https://github.com/handleglobal/laravel-nova-nested-form",
-    "docs": "https://github.com/handleglobal/laravel-nova-nested-form#readme"
-  },
-  "authors": [
-    {
-      "name": "Dmitry Buchkovsky",
-      "homepage": "https://procoders.tech",
-      "email": "buch@procoders.tech"
+    "name": "handleglobal/nova-nested-form",
+    "description": "A Laravel Nova package that allows you to create/update/delete nested related fields from a parent form.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "nova 4",
+        "nested",
+        "relationship",
+        "form"
+    ],
+    "homepage": "https://handleglobal.com",
+    "support": {
+        "email": "buch@procoders.tech",
+        "issues": "https://github.com/handleglobal/laravel-nova-nested-form/issues",
+        "source": "https://github.com/handleglobal/laravel-nova-nested-form",
+        "docs": "https://github.com/handleglobal/laravel-nova-nested-form#readme"
     },
-    {
-      "name": "Ardit Qerosi",
-      "homepage": "https://procoders.tech",
-      "email": "qerosi@proverstka.tech"
-    }
-  ],
-  "license": "MIT",
-  "require": {
-    "php": ">=7.1.0"
-  },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://nova.laravel.com"
-    }
-  ],
-  "autoload": {
-    "psr-4": {
-      "Handleglobal\\NestedForm\\": "src/"
-    }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Handleglobal\\NestedForm\\FieldServiceProvider"
-      ]
-    }
-  },
-  "config": {
-    "sort-packages": true,
-    "optimize-autoloader": true
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "require-dev": {
-    "laravel/nova": "^4.0"
-  }
+    "authors": [
+        {
+            "name": "Dmitry Buchkovsky",
+            "homepage": "https://procoders.tech",
+            "email": "buch@procoders.tech"
+        },
+        {
+            "name": "Ardit Qerosi",
+            "homepage": "https://procoders.tech",
+            "email": "qerosi@proverstka.tech"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "laravel/nova": "^4.17"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Handleglobal\\NestedForm\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Handleglobal\\NestedForm\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
